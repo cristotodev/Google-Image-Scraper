@@ -1,0 +1,17 @@
+{
+  "name": "google-images-scrapper",
+  "version": "1.0.0",
+  "description": "Scrapper to download google images",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+  "keywords": [],
+  "author": "Cristotodev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "puppeteer": "^22.7.1"
+  }
+}
